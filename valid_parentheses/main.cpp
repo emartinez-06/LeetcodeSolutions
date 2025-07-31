@@ -25,6 +25,12 @@ class Solution {
 };
 int main() {
     cout << "valid_parenteses\n";
+    string str1 = "{[]}";
+    string str2 = "[[[}";
+    Solution sol;
+
+    cout << sol.isValid(str1) << endl;
+    cout << sol.isValid(str2) << endl;
 
     return 0;
 }
